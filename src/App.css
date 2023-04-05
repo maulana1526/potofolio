@@ -1,0 +1,84 @@
+* {
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul h1 {
+  margin-right: 15px;
+}
+
+#lbanner {
+  transition: width 0.5s;
+  background: url('./asset/sekolah.jpg');
+  background-size: cover;
+}
+
+#lbanner2 {
+  transition: width 0.5s;
+  background: url('./asset/wp11312064-vestia-zeta-wallpapers.jpg');
+  background-size: cover;
+}
+
+#lbanner3 {
+  transition: width 0.5s;
+  background: url('https://akcdn.detik.net.id/visual/2022/05/14/ragil-mahardika_169.jpeg?w=900&q=90');
+  background-size: cover;
+}
+
+#lbanner4 {
+  transition: width 0.5s;
+  background: url('https://scontent.fdps5-1.fna.fbcdn.net/v/t39.30808-6/320254940_681373090149381_5633546675405614254_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=107&ccb=1-7&_nc_sid=110474&_nc_ohc=MDlbU8CznUgAX8bmgxw&_nc_ht=scontent.fdps5-1.fna&oh=00_AfC9dlC1trlmOZBd1m1lsvW7y9h3oEyTNw7VEVNwfM9bcw&oe=6430CF3E');
+  background-size: cover;
+}
+
+#lbanner5 {
+  transition: width 0.5s;
+  background: url('https://akcdn.detik.net.id/visual/2022/07/12/kadiv-propam-polri-irjen-ferdy-sambo-3_169.jpeg?w=650&q=90');
+  background-size: cover;
+}
+
+#lbanner:hover {
+  width: 600px;
+  transition: width 0.5s;
+}
+
+#lbanner2:hover {
+  width: 600px;
+  transition: width 0.5s;
+}
+
+#lbanner3:hover {
+  width: 600px;
+  transition: width 0.5s;
+}
+
+#lbanner4:hover {
+  width: 600px;
+  transition: width 0.5s;
+}
+
+#lbanner5:hover {
+  width: 600px;
+  transition: width 0.5s;
+}
+
+#projecthover1:hover {
+  box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.75) inset;
+}
+
+#projecthover2:hover {
+  box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.75) inset;
+}
+
+.footerlink a {
+  margin-right: 10px;
+}
